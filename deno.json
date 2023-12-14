@@ -1,8 +1,5 @@
 {
   "tasks": {
-    "wipe": "deno run --allow-write mod.ts"
-  },
-  "imports": {
-    "cliffy/": "https://deno.land/x/cliffy@v1.0.0-rc.3/"
+    "wipe": "deno run --allow-write main.ts"
   }
 }

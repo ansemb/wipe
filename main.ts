@@ -1,8 +1,8 @@
-import { Command } from "cliffy/command/mod.ts";
-import { colors } from "cliffy/ansi/mod.ts";
+import { Command } from "https://deno.land/x/cliffy@v1.0.0-rc.3/command/mod.ts";
+import { colors } from "https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/mod.ts";
 
 const NAME = "wipe";
-const VERSION = "0.0.1";
+const VERSION = "0.0.2";
 
 const error = colors.bold.red;
 
